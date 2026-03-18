@@ -21,7 +21,11 @@ This prevents abrupt power loss, which is essential for protecting NVMe SSDs fro
 
 ---
 
+## 🖼️ See it in action
 
+Here’s how the persistent, unmissable Rofi alert looks on my setup:
+
+<img width="1356" height="705" alt="shot" src="https://github.com/SH-AHD/BASH-JAM-I-2/blob/Battery_alert_script/Battery%20alert/screenshot.png" />
 
 *This alert stays centered and on top of all windows (VS Code, Emulators, etc.) until dismissed.*
 
