@@ -22,7 +22,7 @@ while true; do
         exit 1
     fi
 
-    # Check if charger is disconnected
+    # Check if the charger is disconnected
     if [ "$BATT_STATUS" = "Discharging" ]; then
         
         # Threshold for critical battery (Adjust based on health)
@@ -31,7 +31,7 @@ while true; do
             # Send a non-persistent system notification
             notify-send -u normal -t 5000 "🔋 Battery Alert" "Level: $BATT_LEVEL% - Action Required"
             
-            # Prepare the elegant alert message
+            # Prepare the alert message
             MESSAGE="
 ✨ Stay Safe, $USER_NAME ✨
 
