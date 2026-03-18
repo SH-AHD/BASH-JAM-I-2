@@ -69,5 +69,3 @@ Output: * A persistent, centered GUI popup (Rofi) that stays on top of all windo
 Immediate visual warning to plug in the charger.
 
 Protection of the unsafe_shutdowns count on the NVMe drive.
-
-NOTE: This script was developed as a survival tool for a Dell with a severely degraded battery after a kernel-induced hardware scare. While traditional power managers exist, they are often too subtle for a battery that can die in seconds. This script ensures the developer has enough time to save their code and perform a graceful shutdown.
